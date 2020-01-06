@@ -1,3 +1,8 @@
 .jumbotron {
   padding: 100px;
+  background-image: url(../../assets/google-books-search.png);
+  background-position: center;
+  color: #fadf83 ;
 }
+
+

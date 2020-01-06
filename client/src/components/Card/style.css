@@ -1,0 +1,8 @@
+.card {
+    background-image: linear-gradient(120deg, #f9e08e 0%, #f9e191 100%);
+}
+
+.card-header {
+    background-color: #e6b843;
+    color:brown !important;
+}

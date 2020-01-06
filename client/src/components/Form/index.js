@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 function Form({ q, handleInputChange, handleFormSubmit }) {
   return (
@@ -12,7 +13,7 @@ function Form({ q, handleInputChange, handleFormSubmit }) {
           id="Title"
           type="text"
           value={q}
-          placeholder="Ready Player One"
+          placeholder="  Enter your search"
           name="q"
           onChange={handleInputChange}
           required

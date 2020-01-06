@@ -2,8 +2,20 @@
   float: right;
 }
 
+h3 {
+  color: rgb(0, 72, 255);
+}
+
+h5 {
+  color: brown;
+}
+
 @media (max-width: 767px) {
   .btn-container {
     margin-bottom: 15px;
   }
+}
+
+.btn-danger {
+  background-color: rgb(255, 68, 0) !important;
 }
