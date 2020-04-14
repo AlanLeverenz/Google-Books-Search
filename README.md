@@ -12,6 +12,8 @@ The Google Books Search is a MERN app that accesses the Google Books database. T
 
 When the app is loaded a __Search__ box presents the user with a text box to enter a book title, author, or any relevant search string. Click the __Search__ button to initiate the search. An API to the Google-Books database transfers the request to the server for processing.
 
+### Results
+
 ![Search-Results](readme-images/search-result.png)
 
 Search results are listed in the __Results__ box. Each returned item lists the book title, author, image, and brief annotation.
@@ -20,7 +22,7 @@ The __View__ button re-directs the user to the Google Books page.
 
 The __Save__ button saves the book's data to the MongoDb database.
 
-### Save
+### Saved
 
 ![Navbar](readme-images/navbar-horizontal.png)
 
@@ -34,4 +36,13 @@ The __Delete__ button removes the book from the MongoDB database.
 
 ## Technology
 
+The Google-Books-Search app uses the MERN framework, utilizing the following app components:
 
+* MongoDB
+* Express
+* React
+* NodeJS
+
+Axios fetches data via the Google Books API with a promise-based request.
+
+The React client source code is organized into components and pages.
