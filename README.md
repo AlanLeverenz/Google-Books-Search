@@ -1,29 +1,37 @@
-# Create React Express App
+![Goggle-Books-Search](readme-images/app-title.png)
 
-## About This Boilerplate
+## What it does
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+The Google Books Search is a MERN app that accesses the Google Books database. The user can save books returned from the search to a MongoDB database. Saved books can be viewed and removed.
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+## How it works
 
-## Starting the app locally
+### Search
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+![Goggle-Books-Search](readme-images/book-search.png)
 
-```
-npm install
-```
+When the app is loaded a __Search__ box presents the user with a text box to enter a book title, author, or any relevant search string. Click the __Search__ button to initiate the search. An API to the Google-Books database transfers the request to the server for processing.
 
-This should install node modules within the server and the client folder.
+![Search-Results](readme-images/search-result.png)
 
-After both installations complete, run the following command in your terminal:
+Search results are listed in the __Results__ box. Each returned item lists the book title, author, image, and brief annotation.
 
-```
-npm start
-```
+The __View__ button re-directs the user to the Google Books page.
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+The __Save__ button saves the book's data to the MongoDb database.
 
-## Deployment (Heroku)
+### Save
 
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+![Navbar](readme-images/navbar-horizontal.png)
+
+To view saved books, click on the Saved item in the Navbar.
+
+![Google-Books-Search](readme-images/saved-book.png)
+
+The __View__ button re-directs the user to the Google Books page.
+
+The __Delete__ button removes the book from the MongoDB database.
+
+## Technology
+
+
